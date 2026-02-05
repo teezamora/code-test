@@ -1,0 +1,181 @@
+/* GLOBAL RESET*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* GLOBAL COLORS */
+  body {
+    background-color: rgb(117, 142, 165, 1);
+    color: rgba(233, 233, 233, 1);
+  }
+  
+  a {
+    color: rgba(233, 233, 233, .8);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(30, 93, 151);
+  }
+  
+  a[href^="#"] {
+    opacity: 50%;
+  }
+  
+  .project-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* GLOBAL TYPOGRAPHY*/
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 88.75%;
+    /* 14px */
+    line-height: 1.4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "montserrat", sans-serif;
+  }
+
+.headline {
+  font-family: "montserrat", sans-serif;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0 0 0.5em 0;
+}
+  
+  
+  /* HEADER */
+  header {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  
+  header a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  header a:hover {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  /* SITE ID */
+  .site-id h1 {
+    margin: 0;
+  }
+  
+  /* SITE NAV */
+  .site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .site-nav a {
+    display: block;
+    padding: .5em;
+  }
+  
+  section {
+    padding: 4em 0;
+    display: grid;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 1em;
+  }
+  
+  footer a {
+    color: rgba(233, 233, 233, .8);
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: rgba(168, 203, 236, 1);
+  }
+  
+  /* LAYOUT */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .two-col-sidebar {
+      display: grid;
+      grid-template-columns: 20em auto;
+    }
+  
+    .two-col-sidebar aside {
+      border-right: 1px solid rgb(245, 244, 244);
+      margin: 0 3em 2em 0;
+      padding: 0.3em 2em 0 0;
+    }
+  }
+  
+  section {
+    padding: 3em 1em;
+  }
+  
+  /* SIDEBAR/ASIDE */
+  aside {
+    padding: 0 1em;
+  }
+  
+  .primary {
+    padding: 0 1em;
+  }
+
+  
+  /* HERO SECTION */
+  
+  .hero {
+    text-align: center;
+    color: white;
+    padding: 6em 1em;
+  }
+  
+  .hero h2 {
+    font-family: 'Press Start 2P';
+    font-size: 4em;
+    line-height: 2;
+    text-transform: uppercase;
+    margin: 4 auto;
+  }
+
+  .hero p {
+    max-width: 30em;
+    text-align: center;
+    margin: 1em auto;
+  }
