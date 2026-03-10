@@ -39,15 +39,15 @@ const RECIPES = [
     tags:        ["Breakfast", "High Protein", "Meal Prep"],
     servings:    6,
     perServing: {
-      calories: 602,
-      protein:  30.8,
-      carbs:    37.6,
-      fat:      35.6,
+      calories: 568,
+      protein:  35.0,
+      carbs:    35.0,
+      fat:      28.0,
     },
     macroSplit: {
-      protein: 20.7,
-      carbs:   25.3,
-      fat:     54.0,
+      protein: 26.3,
+      carbs:   26.3,
+      fat:     47.4,
     },
   },
 
