@@ -6,5 +6,5 @@ A personal bodybuilder nutrition dashboard. Track recipes, break down macros, an
 
 | Recipe | Cal/serving | Protein | Carbs | Fat |
 |---|---|---|---|---|
-| [Cottage Cheese Pancakes](recipes/cottage-cheese-pancakes.html) | 207 | 11.1g | 18.8g | 9.5g |
+| [Cottage Cheese Pancakes](recipes/cottage-cheese-pancakes.html) | 100 | 5.6g | 8.9g | 4.6g |
 | [High-Protein Breakfast Burritos](recipes/high-protein-breakfast-burritos.html) | 602 | 30.8g | 37.6g | 35.6g |

@@ -12,21 +12,21 @@ const RECIPES = [
   {
     file:        "cottage-cheese-pancakes.html",  // filename inside /recipes/
     name:        "Cottage Cheese Pancakes",
-    description: "High-protein batter · 7 ingredients",
+    description: "High-protein batter · 7 ingredients · 45g each",
     emoji:       "🥞",
     thumbBg:     "linear-gradient(135deg, #1a1500 0%, #2d2400 50%, #1a1500 100%)",
     tags:        ["Breakfast", "High Protein", "Post-Workout"],
-    servings:    8,
+    servings:    17,
     perServing: {
-      calories: 207,
-      protein:  11.1,
-      carbs:    18.8,
-      fat:       9.5,
+      calories: 100,
+      protein:   5.6,
+      carbs:     8.9,
+      fat:       4.6,
     },
     macroSplit: {           // % of calories — must add to 100
-      protein: 21.6,
-      carbs:   36.6,
-      fat:     41.8,
+      protein: 22.6,
+      carbs:   35.8,
+      fat:     41.6,
     },
   },
 
