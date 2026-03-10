@@ -30,6 +30,27 @@ const RECIPES = [
     },
   },
 
+  {
+    file:        "high-protein-breakfast-burritos.html",
+    name:        "Breakfast Burritos",
+    description: "Egg, sausage & cheddar wrap · 8 ingredients",
+    emoji:       "🌯",
+    thumbBg:     "linear-gradient(135deg, #1a0800 0%, #2d1200 50%, #1a0800 100%)",
+    tags:        ["Breakfast", "High Protein", "Meal Prep"],
+    servings:    6,
+    perServing: {
+      calories: 602,
+      protein:  30.8,
+      carbs:    37.6,
+      fat:      35.6,
+    },
+    macroSplit: {
+      protein: 20.7,
+      carbs:   25.3,
+      fat:     54.0,
+    },
+  },
+
   // ── PASTE NEW RECIPES BELOW THIS LINE ─────────────────────
   // {
   //   file:        "chicken-rice-bowl.html",
